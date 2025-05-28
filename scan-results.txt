@@ -1,0 +1,37 @@
+# Nmap 7.97 scan initiated Mon May 26 11:20:26 2025 as: nmap -sS -oN C:\\Users\\YOUR_USERNAME\\Desktop\\scan-results.txt 10.0.0.0/24
+
+Nmap scan report for Router-Device (10.0.0.1)
+Host is up (0.0054s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE    SERVICE
+53/tcp   open     domain
+80/tcp   open     http
+443/tcp  open     https
+3000/tcp filtered ppp
+8081/tcp filtered blackice-icecap
+MAC Address: AA:BB:CC:00:11:01 (Anonymized)
+
+Nmap scan report for My-Phone (10.0.0.102)
+Host is up (0.0071s latency).
+All 1000 scanned ports on My-Phone (10.0.0.102) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: AA:BB:CC:00:11:02 (Anonymized)
+
+Nmap scan report for Smart-Washer (10.0.0.103)
+Host is up (0.0049s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT      STATE SERVICE
+49153/tcp open  unknown
+MAC Address: AA:BB:CC:00:11:03 (Anonymized)
+
+Nmap scan report for My-Laptop (10.0.0.101)
+Host is up (0.000035s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5357/tcp open  wsdapi
+
+# Nmap done at Mon May 26 11:21:18 2025 -- 256 IP addresses (4 hosts up) scanned in 51.48 seconds
+
